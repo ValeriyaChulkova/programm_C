@@ -1,0 +1,11 @@
+//Самостоятельная работа 3 №5.28 (а)
+#include <iostream>
+
+int main() {
+int product = 1;
+for (int i = 8; i <= 15; i++) {
+product *= i;
+}
+std::cout << "Product of integers from 8 to 15: " << product << std::endl;
+
+return 0;
