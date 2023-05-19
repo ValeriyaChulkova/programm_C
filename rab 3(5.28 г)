@@ -1,0 +1,16 @@
+//Самостоятельная работа 3 №5.28 (г)
+#include <iostream>
+
+int main() {
+int a, b, product = 1;
+std::cout << "Enter a value for a: ";
+std::cin >> a;
+std::cout << "Enter a value for b (must be greater than or equal to a): ";
+std::cin >> b;
+for (int i = a; i <= b; i++) {
+product *= i;
+}
+std::cout << "Product of integers from " << a << " to " << b << ": " << product << std::endl;
+
+return 0;
+}
