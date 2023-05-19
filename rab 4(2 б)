@@ -1,0 +1,19 @@
+//Самостоятельная работа 4 базовый вариант №8.2(б)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+const int n = 5;
+for (int i = n; i >= 1; i--)
+{
+for (int j = 1; j <= i; j++)
+{
+cout << "1 ";
+}
+cout << endl;
+}
+
+return 0;
+}
