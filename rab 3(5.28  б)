@@ -1,0 +1,14 @@
+//Самостоятельная работа 3 базовый вапивнт №5.28 (б)
+#include <iostream>
+
+int main() {
+int a, product = 1;
+std::cout << "Enter a value between 1 and 20: ";
+std::cin >> a;
+for (int i = a; i <= 20; i++) {
+product *= i;
+}
+std::cout << "Product of integers from " << a << " to 20: " << product << std::endl;
+
+return 0;
+}
