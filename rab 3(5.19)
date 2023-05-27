@@ -1,0 +1,23 @@
+//самостоятельная работа 3 базовый вариант №5.19
+
+#include <iostream>
+
+#include <cmath>
+
+void sin_print(double from, double to, double step){
+
+while(from<=to){
+
+std::cout << sin(from) << std::endl;
+
+from+=step;
+
+}
+
+}
+
+int main(){
+
+sin_print(0.1, 1.1, 0.1);
+
+}
