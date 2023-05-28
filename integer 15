@@ -1,0 +1,19 @@
+//САмостоятеьная работа 1 базовый вариант integer 15
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€ÐµÑ…Ð·Ð½Ð°Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
+    cin >> num;
+
+    int hundreds = num / 100;   // ÑÐ¾Ñ‚Ð½Ð¸
+    int tens = num / 10 % 10;   // Ð´ÐµÑÑÑ‚ÐºÐ¸
+    int ones = num % 10;        // ÐµÐ´Ð¸Ð½Ð¸Ñ†Ñ‹
+
+    int newNum = tens * 100 + hundreds * 10 + ones;   // Ð¿ÐµÑ€ÐµÑÑ‚Ð°Ð²Ð»ÑÐµÐ¼ ÑÐ¾Ñ‚Ð½Ð¸ Ð¸ Ð´ÐµÑÑÑ‚ÐºÐ¸
+
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << newNum << endl;
+
+    return 0;
+}
