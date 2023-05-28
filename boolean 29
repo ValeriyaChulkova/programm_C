@@ -1,0 +1,21 @@
+//Самостоятельная работа 2 базовый вапиант boolean 29
+#include <iostream>
+using namespace std;
+
+int main() {
+int x, y, x1, y1, x2, y2;
+cout << "y: ";
+cin >> x >> y;
+cout << ": ";
+cin >> x1 >> y1;
+cout << ": ";
+cin >> x2 >> y2;
+if(x > x1 && x < x2 && y > y1 && y < y2) {
+    cout << " (" << x << ", " << y << ") " << endl;
+}
+else {
+    cout << " (" << x << ", " << y << ")" << endl;
+}
+
+return 0;
+}
