@@ -1,0 +1,18 @@
+//Caмостоятельная работа 1 продвинутый вариант №10
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    double G = 6.672e-11; 
+    double M = 5.96e24; 
+    double R = 6.37e6;
+    double h;
+    double g;
+    cout << ": "; 
+    cin >> h; 
+g = G * M / pow((R + h), 2);
+
+cout<< " "<<h<<" : "<< g<<" "; 
+
+return 0;
+}
